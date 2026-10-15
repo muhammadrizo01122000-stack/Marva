@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="img" href="./img/logo.jpeg">
+    <title>MAVRA Karvatlari</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-area">
+                <div class="logo-icon"><i class="fa-solid fa-bed"></i></div>
+                <div class="logo-text">
+                    <h1>MAVRO</h1>
+                    <span>Karvatlari</span>
+                </div>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="#">Bosh sahifa</a></li>
+                <li><a href="#">Mahsulotlar</a></li>
+                <li><a href="#">Aksiyalar</a></li>
+                <li><a href="#">Biz haqimizda</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Aloqa</a></li>
+            </ul>
+
+            <div class="header-actions">
+                <button class="action-btn" title="Saralanganlar">
+                    <i class="fa-solid fa-heart"></i>
+                    <span class="badge wishlist-badge">0</span>
+                </button>
+                <button class="action-btn" title="Savatcha">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="badge cart-badge">0</span>
+                </button>
+                <button class="action-btn" title="Profil"><i class="fa-solid fa-user"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-banner">
+            <div class="hero-content">
+                <span class="hero-subtitle">MUKAMMAL YOTOQXONA INTERYERI</span>
+                <h2>Zamonaviy yotoqxonalar uchun eng yaxshi mebellar</h2>
+                <p>Sizning qulayligingiz va go‘zalligingiz uchun eng sifatli, zamonaviy va bardoshli yotoq mebellari to'plami.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">Katalogni ko'rish <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="video-modal" id="videoModal">
+        <div class="video-container">
+            <i class="fa-solid fa-xmark close-video" id="closeVideoBtn"></i>
+            <iframe id="videoIframe" src="" title="YOTOQ video" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="benefits-row">
+        <div class="benefit-card">
+            <div class="benefit-icon"><i class="fa-solid fa-truck-fast"></i></div>
+            <div class="benefit-info">
+                <h4>Bepul yetkazib berish</h4>
+                <p>200 000 so'mdan ortiq xaridlarga</p>
+            </div>
+        </div>
+        <div class="benefit-card">
+            <div class="benefit-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <div class="benefit-info">
+                <h4>Sifat kafolati</h4>
+                <p>Rasmiy kafolat beriladi</p>
+            </div>
+        </div>
+        <div class="benefit-card">
+            <div class="benefit-icon"><i class="fa-solid fa-credit-card"></i></div>
+            <div class="benefit-info">
+                <h4>Qulay to'lov</h4>
+                <p>Naqd va muddatli to'lov</p>
+            </div>
+        </div>
+        <div class="benefit-card">
+            <div class="benefit-icon"><i class="fa-solid fa-headset"></i></div>
+            <div class="benefit-info">
+                <h4>24/7 qo'llab-quvvatlash</h4>
+                <p>Doimiy mijozlar xizmati</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="section-container">
+        <div class="section-header">
+            <div class="section-title">
+                <h3>Kategoriyalar</h3>
+                <p>O'zingizga kerakli mebel turini tanlang</p>
+            </div>
+        </div>
+        <div class="categories-grid">
+            <a href="#" class="category-card">
+                <div class="category-icon-bg"><i class="fa-solid fa-bed"></i></div>
+                <h4>Yotoqlar</h4>
+            </a>
+            <a href="#" class="category-card">
+                <div class="category-icon-bg"><i class="fa-solid fa-mattress-pillow"></i></div>
+                <h4>Matraslar</h4>
+            </a>
+            <a href="#" class="category-card">
+                <div class="category-icon-bg"><i class="fa-solid fa-door-closed"></i></div>
+                <h4>Shkaflar</h4>
+            </a>
+            <a href="#" class="category-card">
+                <div class="category-icon-bg"><i class="fa-solid fa-table"></i></div>
+                <h4>Tungi stollar</h4>
+            </a>
+            <a href="#" class="category-card">
+                <div class="category-icon-bg"><i class="fa-solid fa-rug"></i></div>
+                <h4>Choyshablar</h4>
+            </a>
+            <a href="#" class="category-card">
+                <div class="category-icon-bg"><i class="fa-solid fa-cloud"></i></div>
+                <h4>Yostiqlar</h4>
+            </a>
+            <a href="#" class="category-card">
+                <div class="category-icon-bg"><i class="fa-solid fa-lightbulb"></i></div>
+                <h4>Aksessuar</h4>
+            </a>
+        </div>
+    </section>
+
+    <div class="mid-banner">
+        <div class="mid-banner-text">
+            <h2>Sizning orzularingiz uchun mukammal tanlov</h2>
+            <p>Biz har bir mijoz uchun qulaylik va shinamlik yaratamiz. Ko'p yillik tajribamiz va sifatli xom-ashyolarimiz bilan uyingizni bezaymiz.</p>
+        </div>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>10 000+</h3>
+                <p>Mamnun mijozlar</p>
+            </div>
+            <div class="stat-card">
+                <h3>500+</h3>
+                <p>Mahsulotlar</p>
+            </div>
+            <div class="stat-card">
+                <h3>5 yillik</h3>
+                <p>Kafolat</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="section-container">
+        <div class="section-header">
+            <div class="section-title">
+                <h3>Ommabop mahsulotlar</h3>
+                <p>Mijozlarimiz tomonidan eng ko'p tanlangan mebellar</p>
+            </div>
+            <a href="#" class="view-all-link">Barchasini ko'rish <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-image-wrap">
+                    <span class="product-tag">-20%</span>
+                    <button class="wishlist-btn"><i class="fa-solid fa-heart"></i></button>
+                    <img src="./img/bed1.jpeg" alt="Premium yotoq">
+                </div>
+                <div class="product-info">
+                    <a href="#" class="product-title">Premium yotoq</a>
+                    <div class="product-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <span>(134)</span>
+                    </div>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="current-price">4 990 000 so'm</span>
+                            <span class="old-price">6 200 000 so'm</span>
+                        </div>
+                        <button class="add-to-cart-btn"><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image-wrap">
+                    <span class="product-tag">-15%</span>
+                    <button class="wishlist-btn"><i class="fa-solid fa-heart"></i></button>
+                    <img src="./img/matras1.jpeg" alt="Ortopedik matras">
+                </div>
+                <div class="product-info">
+                    <a href="#" class="product-title">Ortopedik matras</a>
+                    <div class="product-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                        <span>(98)</span>
+                    </div>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="current-price">2 390 000 so'm</span>
+                            <span class="old-price">2 800 000 so'm</span>
+                        </div>
+                        <button class="add-to-cart-btn"><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image-wrap">
+                    <button class="wishlist-btn"><i class="fa-solid fa-heart"></i></button>
+                    <img src="./img/shkaf1.jpeg" alt="Shkaf Modern">
+                </div>
+                <div class="product-info">
+                    <a href="#" class="product-title">Shkaf Modern</a>
+                    <div class="product-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <span>(76)</span>
+                    </div>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="current-price">3 450 000 so'm</span>
+                        </div>
+                        <button class="add-to-cart-btn"><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image-wrap">
+                    <button class="wishlist-btn"><i class="fa-solid fa-heart"></i></button>
+                    <img src="./img/stol.avif" alt="Tungi stol">
+                </div>
+                <div class="product-info">
+                    <a href="#" class="product-title">Tungi stol</a>
+                    <div class="product-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <span>(54)</span>
+                    </div>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="current-price">890 000 so'm</span>
+                        </div>
+                        <button class="add-to-cart-btn"><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="special-offer-banner">
+        <div class="offer-text">
+            <h3>50% gacha chegirma!</h3>
+            <p>Mavsumiy chegirmalar doirasida yotoqxona to'plamlarini maxsus narxlarda xarid qiling.</p>
+        </div>
+        <button class="btn-light">Xarid qilish</button>
+    </div>
+
+    <section class="section-container">
+        <div class="section-header">
+            <div class="section-title">
+                <h3>Saralangan to'plamlar</h3>
+                <p>Xonadon xonalari uchun maxsus dizaynlar</p>
+            </div>
+        </div>
+        <div class="highlights-grid">
+            <div class="highlight-card">
+                <img src="./img/bed4.jpeg" alt="Zamonaviy yotoqlar">
+                <div class="highlight-overlay"></div>
+                <div class="highlight-content">
+                    <h4>Zamonaviy yotoqlar</h4>
+                    <a href="#">Barchasini ko'rish <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="highlight-card">
+                <img src="./img/matras5.jpeg" alt="Lux matraslar">
+                <div class="highlight-overlay"></div>
+                <div class="highlight-content">
+                    <h4>Lux matraslar</h4>
+                    <a href="#">Barchasini ko'rish <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="highlight-card">
+                <img src="./img/shkaf1.jpeg" alt="Shkaflar">
+                <div class="highlight-overlay"></div>
+                <div class="highlight-content">
+                    <h4>Shkaflar</h4>
+                    <a href="#">Barchasini ko'rish <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container">
+        <div class="section-header">
+            <div class="section-title">
+                <h3>Mijozlarimiz fikrlari</h3>
+                <p>Biz haqimizda xaridorlarning bildirgan fikrlari</p>
+            </div>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <p>"YOTOQ do'konidan premium yotoq xarid qildik. Sifati juda a'lo darajada, yetkazib berish va o'rnatib berish xizmati ham tez amalga oshirildi."</p>
+                <div class="author-info">
+                    <h5>Madina Tursunova</h5>
+                    <span>Toshkent shahri</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <p>"Ortopedik matras oldik, bel og'riqlaridan xalos bo'ldim. Sifati a'lo, narxlari ham boshqa do'konlarga qaraganda ancha hamyonbop."</p>
+                <div class="author-info">
+                    <h5>Azizbek Rahimov</h5>
+                    <span>Samarqand shahri</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <p>"Shkaf Modern to'plami juda shinam va sig'imli. Interyerimizga juda mos tushdi. Barchaga tavsiya qilaman!"</p>
+                <div class="author-info">
+                    <h5>Dilshoda Karimova</h5>
+                    <span>Buxoro shahri</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container">
+        <div class="section-header">
+            <div class="section-title">
+                <h3>Foydali maqolalar</h3>
+                <p>Yotoqxona va mebel parvarishi bo'yicha maslahatlar</p>
+            </div>
+            <a href="#" class="view-all-link">Blogni o'qish <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <div class="blog-img">
+                    <img src="./img/bed11.jpeg" alt="Matras tanlash">
+                </div>
+                <div class="blog-body">
+                    <span class="blog-date">12 Oktyabr, 2026</span>
+                    <h4>To'g'ri ortopedik matrasni qanday tanlash kerak?</h4>
+                    <p>Sog'lom uyqu uchun matras tanlashda e'tibor berish kerak bo'lgan asosiy mezonlar.</p>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-img">
+                    <img src="./img/bed14.jpeg" alt="Yotoqxona dizayni">
+                </div>
+                <div class="blog-body">
+                    <span class="blog-date">05 Oktyabr, 2026</span>
+                    <h4>Kichik yotoqxonani qanday qilib kengroq ko'rsatish mumkin?</h4>
+                    <p>Mebellarni to'g'ri joylashtirish va ranglar uyg'unligi orqali hududni kengaytirish.</p>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-img">
+                    <img src="./img/bed13.jpeg" alt="Yog'och mebellar">
+                </div>
+                <div class="blog-body">
+                    <span class="blog-date">28 Sentyabr, 2026</span>
+                    <h4>Yog'och mebellarni to'g'ri parvarish qilish sirlari</h4>
+                    <p>Mebellaringiz uzoq yillar davomida yangidek saqlanishi uchun zarur tavsiyalar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="newsletter-section">
+        <div class="newsletter-content">
+            <h3>Aksiyalardan xabardor bo'ling</h3>
+            <p>E-pochta manzilingizni kiriting va eng so'nggi chegirmalar haqida birinchilardan bo'lib biling.</p>
+            <form class="newsletter-form" onsubmit="event.preventDefault();">
+                <input type="email" placeholder="E-pochta manzilingiz">
+                <button type="submit" class="btn-primary" id="subscribeBtn">Azo bo'lish</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="logo-area" style="margin-bottom: 20px;">
+                    <div class="logo-icon"><i class="fa-solid fa-bed"></i></div>
+                    <div class="logo-text">
+                        <h1 style="color: #ffffff;">YOTOQ</h1>
+                        <span style="color: #94a3b8;">Yotoqxona mebellari</span>
+                    </div>
+                </div>
+                <p style="color: #94a3b8; font-size: 14px; line-height: 1.6;">Orzularingizdagi shinam va zamonaviy yotoqxonalarni biz bilan birga yarating.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-btn"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#" class="social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-btn"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Kategoriyalar</h4>
+                <ul>
+                    <li><a href="#">Yotoqlar</a></li>
+                    <li><a href="#">Ortopedik matraslar</a></li>
+                    <li><a href="#">Shkaflar va komodlar</a></li>
+                    <li><a href="#">Tungi stollar</a></li>
+                    <li><a href="#">Aksessuarlar</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Mijozlarga</h4>
+                <ul>
+                    <li><a href="#">Biz haqimizda</a></li>
+                    <li><a href="#">Yetkazib berish va to'lov</a></li>
+                    <li><a href="#">Kafolat shartlari</a></li>
+                    <li><a href="#">Blog va maslahatlar</a></li>
+                    <li><a href="#">Aloqa</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Aloqa</h4>
+                <ul class="contact-info">
+                    <li><i class="fa-solid fa-phone"></i> +998 90 123 45 67</li>
+                    <li><i class="fa-solid fa-envelope"></i> info@yotoq.uz</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Toshkent sh., Chilonzor t.</li>
+                </ul>
+                <a class="btn-map"><i class="fa-solid fa-map-location-dot"></i> Google Maps'da ko'rish</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 MAVRA. Barcha huquqlar himoyalangan.</p>
+            <p>Sifatli mebellar internet-do'koni</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
